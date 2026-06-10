@@ -1,4 +1,3 @@
-Dockerfile
 # 1. Etapa de Build (Compilação)
 FROM maven:3.8.8-openjdk-17 AS build
 COPY . .
